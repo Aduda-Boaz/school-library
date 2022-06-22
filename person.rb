@@ -12,8 +12,7 @@ class Person
     return true if id is_of_age? || @parent_permission
 
     false
-  end
-  
+  end  
   private
 
   def is_of_age? # rubocop:disable Naming/PredicateName
