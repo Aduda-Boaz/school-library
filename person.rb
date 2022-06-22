@@ -13,7 +13,7 @@ class Person
 
     false
   end
-   
+
   private
 
   def is_of_age? # rubocop:disable Naming/PredicateName
