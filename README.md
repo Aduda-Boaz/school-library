@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name : Ruby Enumerables
+# Project Name : School Library
 
 > This is about a Ruby Project to create a simple school library application.
 
