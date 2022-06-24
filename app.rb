@@ -2,8 +2,8 @@ require_relative 'student'
 require_relative 'teacher'
 require_relative 'book'
 require_relative 'classroom'
-require_relative 'rental'
 require_relative 'app_helper'
+require_relative 'rental'
 require 'set'
 
 class App
@@ -54,7 +54,7 @@ class App
     author = gets.chomp
     book = Book.new(title, author)
     puts "Book made. #{title} by #{author}"
-    @books << book
+    @book << book
   end
 
   def create_rental
@@ -62,7 +62,7 @@ class App
       puts 'Please add a person to set up a rental'
       return ''
     end
-    if @books.empty?
+    if @book.empty?
       puts 'Need a book? Please add a book to set up a rental'
       return ''
     end

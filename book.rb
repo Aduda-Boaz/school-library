@@ -9,4 +9,8 @@ class Book
     @rentals = []
     @person = nil
   end
+
+  def add_rental(rental)
+    @rentals << rental
+  end
 end
