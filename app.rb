@@ -29,7 +29,7 @@ class App
 
   def create_person
     class_name = confirm_class
-    speciality = confirm_speciality(class_name)
+    specialty = confirm_speciality(class_name)
     age = confirm_age
 
     puts "Please enter person's name"
@@ -39,7 +39,7 @@ class App
     student = Student.new(age, '', name, parent_permission: permission)
     teacher = Teacher.new(age, specialty, name)
     if class_name == 'Teacher'
-      puts "Teacher Name: #{name} Age: #{age} Speciality: #{speciality}"
+      puts "Teacher Name: #{name} Age: #{age} Specialty: #{specialty}"
       @people << teacher
     else
       puts "Student Name: #{name} Age: #{age} ID: #{student.id}"
