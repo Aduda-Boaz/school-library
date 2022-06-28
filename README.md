@@ -24,7 +24,7 @@ Move into project directory
 
 ## Available Scripts
 
-`ruby enumerables.rb`
+`ruby main.rb`
 
 ## Author
 
