@@ -20,19 +20,26 @@ Or using HTTPS
 
 Move into project directory
 
-`cd decode-morse-code`
+`cd school-library`
 
 ## Available Scripts
 
-`ruby enumerables.rb`
+`ruby main.rb`
 
-## Author
+## Authors
 
 👤 **Boaz Aduda**
 
 - GitHub: [@Aduda-Boaz](https://github.com/Aduda-Boaz)
 - Twitter: [@BoazAduda](https://twitter.com/BoazAduda)
 - LinkedIn: [Boaz Aduda](https://www.linkedin.com/in/boaz-aduda/)
+
+
+👤 **Hadi Jafari**
+
+- GitHub: [@githubhandle](https://github.com/Hadi111jafari)
+- Twitter: [@twitterhandle](https://twitter.com/HadiJaf62814146)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-hadi-jafari)
 
 ## 🤝 Contributing
 
