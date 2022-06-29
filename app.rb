@@ -36,8 +36,8 @@ class App
     name = gets.chomp
     permission = confirm_permission(class_name)
 
-    student = Student.new(age, '', name, permission)
-    teacher = Teacher.new(age, specialty, name)
+    student = Student.new('', age, name, permission)
+    teacher = Teacher.new( speciality, age, name)
     if class_name == 'Teacher'
       puts "Teacher Name: #{name} Age: #{age} Specialty: #{speciality}"
       @people << teacher

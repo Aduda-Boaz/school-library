@@ -4,6 +4,7 @@ require_relative 'display'
 
 class Main < Display
   def main # rubocop:disable Metrics/CyclomaticComplexity
+    system('cls')
     app = App.new
     user_finished = false
     until user_finished
